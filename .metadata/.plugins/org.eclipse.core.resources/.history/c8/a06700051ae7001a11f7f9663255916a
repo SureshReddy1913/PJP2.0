@@ -1,0 +1,21 @@
+package com.sapient.transaction;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProcessRunner {
+
+	public static void main(String[] args) {
+		
+	FeeProcessing feeProcessing = new FeeProcessing();
+	
+	FileIO fileIO=new FileIO();
+	
+	List<InputTransaction> inputTransactions=new ArrayList<>();
+	inputTransactions=fileIO.get_transactions();
+	
+	
+
+	}
+
+}

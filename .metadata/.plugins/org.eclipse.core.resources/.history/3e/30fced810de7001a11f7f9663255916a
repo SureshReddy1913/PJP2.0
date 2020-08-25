@@ -1,0 +1,14 @@
+package com.sapient.transaction;
+
+import java.util.Date;
+
+public class InputTransaction {
+	private String trans_id;
+	private String client_id;
+	private String security_id;
+	private String transaction_type;
+	private Date trans_date;
+	private double market_value;
+	private String priority_flag;
+	
+}

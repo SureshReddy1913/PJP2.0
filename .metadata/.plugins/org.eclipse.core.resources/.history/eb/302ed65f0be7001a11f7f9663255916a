@@ -1,0 +1,42 @@
+package com.sapient.transaction;
+
+import java.util.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+		POJO p1=new POJO();
+		p1.setName("anish");p1.setCollege("NITW");
+		POJO p2=new POJO();
+		p2.setName("znish");p2.setCollege("aITW");
+		
+		Map<POJO,Integer> m=new HashMap<>();
+		m.put(p1, 1);
+		m.put(p2, 2);
+		
+		System.out.println(m.get(p1));
+		
+		ArrayList<POJO> ar = new ArrayList<POJO>(m.keySet()); 
+		
+		Collections.sort(ar, new SortClass()); 
+		
+		
+        for (int i=0; i<ar.size(); i++) 
+            System.out.println(ar.get(i));
+		
+
+	}
+
+}
+
+class SortClass implements Comparator<POJO>{
+	public int compare(POJO p1,POJO p2) {
+		if(p1.getName().equals(p2.getName()))
+		{
+			return (p1.getCollege().compareTo(p2.getCollege()));
+		}
+		else {
+			return (p1.getName().compareTo(p2.getName()));
+		}
+	}
+}

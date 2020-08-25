@@ -1,0 +1,11 @@
+package com.sapient.transaction;
+
+public class OutputTransaction {
+	
+	private String client_id;
+	private String trans_type;
+	private String trans_date;
+	private String priority;
+	private long fee;
+
+}

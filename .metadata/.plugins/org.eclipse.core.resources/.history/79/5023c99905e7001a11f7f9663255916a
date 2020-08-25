@@ -1,0 +1,23 @@
+package com.sapient.transaction;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Test {
+
+	public static void main(String[] args) {
+		POJO p1=new POJO();
+		p1.setName("anish");p1.setCollege("NITW");
+		POJO p2=new POJO();
+		p1.setName("znish");p1.setCollege("aITW");
+		Map<POJO,Integer> m=new HashMap<>();
+		m.put(p1, 1);
+		m.put(p2, 2);
+		
+		TreeMap<POJO, Integer> sorted = new TreeMap<>(m);
+		System.out.println(sorted);
+
+	}
+
+}

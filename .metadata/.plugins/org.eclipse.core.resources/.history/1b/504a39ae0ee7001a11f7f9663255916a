@@ -1,0 +1,49 @@
+package com.sapient.transaction;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+public class FileIO {
+	
+	private static String file = "transaction_report.csv";
+	public List<InputTransaction> get_transactions(){
+		
+		List<InputTransaction> inputTransactions=new ArrayList<>();
+		
+		try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+			String data;
+			int count = 0;
+			while((data = br.readLine()) != null) {
+				count++;
+				if(count == 1)
+					continue;
+				
+				InputTransaction inputTransaction = new InputTransaction();
+				String [] row = data.split(","); 
+				inputTransaction.setTrans_id(row[0]);
+				inputTransaction.setClient_id(row[1]);
+				inputTransaction.setSecurity_id(row[2]);
+				inputTransaction.setTransaction_type(row[3]);
+				inputTransaction.setTrans_date(new SimpleDateFormat("M/dd/yyyy")
+						.parse(row[4]));
+				inputTransaction.setMarket_value(Double.parseDouble(row[5]));
+				inputTransaction.setPriority_flag(row[6]);
+				inputTransactions.add(inputTransaction);
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return inputTransactions;
+	}
+
+}

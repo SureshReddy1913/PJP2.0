@@ -1,0 +1,45 @@
+package com.sapient.transaction;
+
+public class POJO {
+
+	private String name;
+	private String College;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getCollege() {
+		return College;
+	}
+	public void setCollege(String college) {
+		College = college;
+	}
+	
+	/*@Override
+	public int hashCode() {
+		return 1;
+	}*/
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) { 
+            return true; 
+        } 
+        if (o == null) { 
+            return false; 
+        } 
+        if (this.getClass() != o.getClass()) { 
+            return false; 
+        } 
+        POJO p=(POJO) o;
+        if(p.getName()!=this.getName())
+        	return false;
+        
+        return true;
+		
+	}
+	
+	
+}
