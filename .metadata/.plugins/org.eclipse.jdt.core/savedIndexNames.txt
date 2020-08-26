@@ -1,11 +1,6 @@
 INDEX VERSION 1.131+C:\Users\Sureshreddy\Desktop\sapient\assignment_practise\week2\.metadata\.plugins\org.eclipse.jdt.core
-280500168.index
-4169582869.index
-822479289.index
-3341294628.index
-2279066888.index
-3716737544.index
-1786358565.index
-1615630054.index
 334486982.index
-491885046.index
+3716737544.index
+2922691222.index
+4169582869.index
+3341294628.index
