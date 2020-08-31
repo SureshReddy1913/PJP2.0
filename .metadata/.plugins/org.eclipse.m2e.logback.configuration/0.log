@@ -685,3 +685,7 @@
 2020-08-27 01:51:15,773 [Worker-30: Launching IncomeRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-08-27 01:51:15,775 [Worker-30: Launching IncomeRunner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-08-27 01:51:15,777 [Worker-30: Launching IncomeRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 02:05:17,116 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-27 02:05:17,119 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-27 02:05:17,121 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-27 02:05:17,122 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

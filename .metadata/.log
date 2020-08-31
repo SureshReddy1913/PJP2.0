@@ -5494,3 +5494,26 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-27 01:51:15.776
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 2 2 2020-08-27 01:54:40.359
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2020-08-27 01:54:40.360
+!MESSAGE The project description file (.project) for 'SalarayCalculator' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-27 02:05:17.118
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-27 02:05:17.122
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-27 02:05:38.683
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WXSVRRSx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-27 02:05:38.684
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WXSVRRSx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-27 02:05:38.685
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-27 02:05:38.687
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WXSVRRSx => OK
