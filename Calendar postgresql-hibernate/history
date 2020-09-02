@@ -1,0 +1,14 @@
+Get week number in the year for the date#[12-12-122]#50
+Add Days to date#[12-4-1998, 12]#24-4-1998
+Add Days to date#[12-4-1998, 1]#13-4-1998
+Add Days to date#[12-4-1998, 3]#15-4-1998
+Add Days to date#[3-9-1999, 45]#18-10-1999
+Subtract days from date#[12-9-1897, 123]#12-5-1897
+Subtract weeks from date#[12-9-1765, 123]#5-5-1763
+Get day of the date#[12-9-2020]#Saturday
+Add Days to date#[12-9-889, 1]#13-9-889
+Get week number in the year for the date#[12-9-1887]#38
+Subtract two dates#[12-9-898, 12-1-1886, 12-1-1886]#years : 987, months : 11847, weeks : 51516, days : 360612
+Get day of the date#[12-12-1222]#Monday
+Add Days to date#[14-9-1843, 134]#26-1-1844
+Subtract weeks from date#[12-9-1887, 123]#4-5-1885
